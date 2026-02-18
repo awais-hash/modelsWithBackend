@@ -20,4 +20,4 @@ completedBy :{
 
 },{timestamps: true});
 
-export const subTodo = mongoose.model("subTodo", "subTodoSchema")
+export const subTodo = mongoose.model("subTodo", subTodoSchema)
